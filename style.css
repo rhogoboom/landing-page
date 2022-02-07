@@ -1,0 +1,273 @@
+/* Set Up */
+
+* {
+    box-sizing: border-box;
+}
+  
+html {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Nav Bar */
+
+.nav-bar {
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+    width: 80%;
+    padding: 6px 12px;
+    background-color: #1F2937;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    
+
+}
+
+.logo-text {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.nav-links {
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+}
+
+.nav-link {
+    margin: 0px 6px;
+}
+
+.nav-link > a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* Main Sections */
+.main-section {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    height: 100%;
+}
+
+.main-section > div {
+    flex: 1 1 0;
+}
+
+
+/* Hero Section */
+
+.hero-section {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-content {
+    display: flex;
+    width: 80%;
+    justify-content: stretch;
+
+}
+
+.hero-content-left, .hero-content-right {
+    flex: 1 1 0px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 12px 0px;
+}
+
+.hero-sign-up {
+    background-color: #3882f6;
+    width: 150px;
+    padding: 6px;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.hero-content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-placeholder {
+    background-color: grey;
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-placeholder > p {
+    color: #e5e7eb;
+}
+
+/* Information Section */
+.information-section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 0;
+}
+.cards {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    display: flex;   
+    flex-direction: column;
+    width: 150px;
+
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6;
+}
+
+.info-text {
+    text-align: center;
+}
+
+
+/* Quote Section */
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-content {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+/* Call to Action Section */
+
+.cta-section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.cta-container {
+    background-color: #3882f6;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+
+.cta-left, .cta-right {
+    flex: 1 1 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-header {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.cta-text {
+    color: #F9FAF8;
+}
+
+.cta-sign-up {
+    background-color: #3882f6;
+    width: 150px;
+    padding: 6px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+}
