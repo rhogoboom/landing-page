@@ -74,6 +74,7 @@ body {
     font-size: var(--hero-main-text-size);
     font-weight: var(--hero-main-text-weight);
     color: var(--hero-main-text-color);
+    padding-right: 32px;
 }
 
 .secondary-text {
