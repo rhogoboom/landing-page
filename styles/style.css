@@ -22,8 +22,90 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* set to stretch instead? */
     height: 100vh;
     margin: 0;
+}
+
+.header {
+    background-color: var(--dark-background-color);
+    
+}
+
+.header .logo {
+    color: var(--header-logo-text-color);
+    font-size: var(--header-logo-text-size);
+}
+
+.header .right-links, .secondary-text, button, .hero-image {
+    color: var(--hero-secondary-text-color);
+    font-size: var(--hero-secondary-text-size);
+    
+}
+
+.right-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.content-1 {
+    background-color: var(--dark-background-color);
+
+}
+
+.main-text {
+    font-size: var(--hero-main-text-size);
+    font-weight: var(--hero-main-text-weight);
+    color: var(--hero-main-text-color);
+}
+
+button {
+    background-color: var(--button-color);
+}
+
+
+.hero-image {
+    background-color: grey;
+}
+
+.content-2 {
+    color: var(--information-header-text-color);
+    /* possibly change size based on layout */
+    font-size: var(--hero-secondary-text-size);
+
+}
+
+.information-header{ 
+    font-size: var(--information-header-text-size);
+    font-weight: var(--information-header-text-weight);
+
+}
+
+.content-3 {
+    background-color: var(--quote-section-background-color);
+}
+
+.quote {
+    font-size: var(--quote-text-size);
+    font-weight: var(--quote-text-weight);
+    font-style: var(--quote-text-style);
+    color: var(--quote-text-color)
+}
+
+/* No color info on source */
+
+.illustration {
+    border-color: var(--button-color);
+}
+
+.content-4 {
+    background-color: var(--button-color);
+    color: var(--hero-secondary-text-color);
+
+}
+
+.content-4 button {
+    border-color: var(--hero-secondary-text-color);
 }
 
 .content {
@@ -32,4 +114,7 @@ body {
 
 .footer {
     padding: 16px;
+    background-color: var(--dark-background-color);
+    font-size: var(--hero-secondary-text-size);
+    color: var(--hero-secondary-text-color)
 }
