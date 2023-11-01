@@ -146,6 +146,9 @@ button {
 
 .content-3 {
     background-color: var(--quote-section-background-color);
+    display: flex;
+    flex-direction: column;
+    padding: 48px var(--left-right-margin-padding);
 }
 
 .quote {
@@ -153,6 +156,12 @@ button {
     font-weight: var(--quote-text-weight);
     font-style: var(--quote-text-style);
     color: var(--quote-text-color)
+}
+
+.source {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: calc(var(--quote-text-size) / 2)
 }
 
 /* No color info on source */
