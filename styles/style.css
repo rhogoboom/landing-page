@@ -1,0 +1,19 @@
+:root {
+    --dark-background-color: #1f2937;
+    --hero-main-text-size: 48px;
+    --hero-main-text-weight: extra-bold;
+    --hero-main-text-color: #f9FAF8;
+    --hero-secondary-text-size: 18px;
+    --hero-secondary-text-color: #E5E7EB;
+    --header-logo-text-size: 24px;
+    --header-logo-text-color: #F9FAF8;
+    --button-color: #3882F6;
+    --information-header-text-size: 36px;
+    --information-header-text-weight: extra-bold;
+    --information-header-text-color: #1f2937;
+    --quote-section-background-color: #e5e7eb;
+    --quote-text-size: 36px;
+    --quote-text-weight: light;
+    --quote-text-style: italic;
+    --quote-text-color: #1f2937;
+}
