@@ -171,11 +171,27 @@ button {
 }
 
 .content-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px var(--left-right-margin-padding);
+}
+
+.call-to-action {
     background-color: var(--button-color);
     color: var(--hero-secondary-text-color);
+    flex: 1;
+    padding: 48px var(--left-right-margin-padding);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
 
 }
 
+.main-call {
+    font-size: var(--hero-secondary-text-size);
+    font-weight: bold;
+}
 .content-4 button {
     border-color: var(--hero-secondary-text-color);
 }
