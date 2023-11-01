@@ -206,5 +206,9 @@ button {
     padding: 16px;
     background-color: var(--dark-background-color);
     font-size: var(--hero-secondary-text-size);
-    color: var(--hero-secondary-text-color)
+    color: var(--hero-secondary-text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
