@@ -150,6 +150,7 @@ button {
     display: flex;
     flex-direction: column;
     padding: 48px var(--left-right-margin-padding);
+    justify-content: center;
 }
 
 .quote {
