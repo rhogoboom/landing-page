@@ -16,6 +16,7 @@
     --quote-text-weight: light;
     --quote-text-style: italic;
     --quote-text-color: #1f2937;
+    --left-right-margin-padding: 10%;
 }
 
 body {
@@ -29,6 +30,10 @@ body {
 
 .header {
     background-color: var(--dark-background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 var(--left-right-margin-padding);
     
 }
 
@@ -46,10 +51,12 @@ body {
 .right-links {
     list-style-type: none;
     display: flex;
+    gap: 16px;
 }
 
 .content-1 {
     background-color: var(--dark-background-color);
+    padding: 0 var(--left-right-margin-padding);
 
 }
 
