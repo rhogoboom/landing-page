@@ -17,6 +17,8 @@
     --quote-text-style: italic;
     --quote-text-color: #1f2937;
     --left-right-margin-padding: 15%;
+    font-family: 'Roboto', serif;;
+
 }
 
 body {
